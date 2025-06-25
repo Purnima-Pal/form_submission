@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form validation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="main_form_wrapper">
+        <form action="" class="main_form">
+            <div class="row">
+                <div class="col">
+                    <div class="form_group">
+                    <label for="firstname">Your First Name</label>
+                        <input type="text" placeholder="Enter your first name" id="firstname" name="">
+                    </div>
+                </div>
+                <div class="col">
+                     <div class="form_group">
+                      <label for="lastname">Your Last Name</label>
+                        <input type="text" placeholder="Enter your last name" id="lastname" name="">
+                    </div>
+                </div>
+            </div>
+            <div class="form_group">
+                    <label for="phone">Your Phone Number</label>
+                        <input type="tel" placeholder="Enter your phone number" id="phone" name="">
+                    </div>
+            <div class="form_group">
+                    <label for="email">Your Email</label>
+                        <input type="Email" placeholder="Enter your email" id="email" name="">
+                    </div>
+                  <div class="form_group">
+                    <label for="hobby">Your Hobby</label>
+                    <select name="" id="hobby">
+                        <option value="" selected>Select Your Hobby</option>
+                        <option value="1">Dancing</option>
+                        <option value="2">Reading</option>
+                        <option value="3">Singing</option>
+                    </select>
+                  </div>
+                  <div class="form_group radio_group">
+                    <input type="radio" id="radio1" name="sibling">
+                    <label for="radio1">I have siblings</label>
+                    <input type="radio" id="radio1" name="sibling">
+                    <label for="radio1">I haven't any siblings</label>
+                  </div>
+                  <button type="submit" class="submit_btn">Submit</button>  
+        </form>
+    </div>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
